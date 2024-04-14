@@ -1,4 +1,4 @@
-import apiClient from "@/repositories/apiClient";
+import apiClient from "@repositories/apiClient";
 import {
   postLoginParam,
   postRegisterParam,

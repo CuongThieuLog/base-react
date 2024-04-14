@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { useGetUserQuery } from "@/queries/user.query";
+import { useGetUserQuery } from "@queries/user.query";
 
 const ProfileItem = () => {
   const { data } = useGetUserQuery();

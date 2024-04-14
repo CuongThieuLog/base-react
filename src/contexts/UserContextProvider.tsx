@@ -1,4 +1,4 @@
-import useIsLoginContext from "@/lib/hooks/useIsLoginContext";
+import useIsLoginContext from "@lib/hooks/useIsLoginContext";
 import { createContext } from "react";
 
 interface IUserContextProviderProps {

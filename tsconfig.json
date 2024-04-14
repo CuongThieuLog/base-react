@@ -17,14 +17,14 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "paths": {
-      "@/components/*": ["src/components/*"],
-      "@/constants/*": ["src/constants/*"],
-      "@/contexts/*": ["src/contexts/*"],
-      "@/interfaces/*": ["src/interfaces/*"],
-      "@/lib/*": ["src/lib/*"],
-      "@/pages/*": ["src/pages/*"],
-      "@/queries/*": ["src/queries/*"],
-      "@/repositories/*": ["src/repositories/*"]
+      "@components/*": ["src/components/*"],
+      "@constants/*": ["src/constants/*"],
+      "@contexts/*": ["src/contexts/*"],
+      "@interfaces/*": ["src/interfaces/*"],
+      "@lib/*": ["src/lib/*"],
+      "@pages/*": ["src/pages/*"],
+      "@queries/*": ["src/queries/*"],
+      "@repositories/*": ["src/repositories/*"]
     }
   },
   "include": ["src"],

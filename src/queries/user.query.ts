@@ -1,5 +1,5 @@
-import { QUERY_USER_KEY } from "@/constants/query.constant";
-import { getUser, putUser } from "@/repositories/users/usersRepository";
+import { QUERY_USER_KEY } from "@constants/query.constant";
+import { getUser, putUser } from "@repositories/users/usersRepository";
 import { useMutation, useQuery } from "@tanstack/react-query";
 
 export const useGetUserQuery = () =>

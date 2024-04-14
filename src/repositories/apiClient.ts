@@ -1,5 +1,5 @@
-import { ACCESS_TOKEN_KEY } from "@/constants/token.contant";
-import token from "@/lib/token";
+import { ACCESS_TOKEN_KEY } from "@constants/token.contant";
+import token from "@lib/token";
 import axios, {
   AxiosResponse,
   InternalAxiosRequestConfig,

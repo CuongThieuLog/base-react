@@ -1,8 +1,8 @@
-import routerMeta, { IRouterMeta } from "@/lib/routerMeta";
+import routerMeta, { IRouterMeta } from "@lib/routerMeta";
 import { Link } from "react-router-dom";
 import ProfileItem from "./ProfileItem";
 import { useContext } from "react";
-import { UserContext } from "@/contexts/UserContextProvider";
+import { UserContext } from "@contexts/UserContextProvider";
 import NavItem from "./NavItem";
 
 const Header = () => {
